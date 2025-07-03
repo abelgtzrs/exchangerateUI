@@ -3,10 +3,10 @@ const nextConfig = {
   async rewrites() {
     return [
       {
-        source: '/',
-        destination: '/page',
+        source: "/",
+        destination: "/page",
       },
-    ]
+    ];
   },
   webpack: (config) => {
     config.externals = [...config.externals, { canvas: "canvas" }]; // required to make pdfjs work
