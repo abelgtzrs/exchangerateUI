@@ -1,6 +1,8 @@
 "use client";
 import React from "react";
 
+export const dynamic = "force-dynamic";
+
 function MainComponent() {
   const [rates, setRates] = React.useState({
     // Mexico banks (USD to MXN)
